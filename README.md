@@ -1,5 +1,28 @@
 # Putting it All Together: Client-Server Communication
 
+In this application, we have the following features:
+
+    Display a list of all the toys
+    Add a new toy when the toy form is submitted
+    Update the number of likes for a toy
+    Donate a toy to Goodwill (and delete it from our database)
+
+
+
+    Add a new toy when the toy form is submitted
+        How I debugged:
+        -changed the create action in the toysController.
+
+    Update the number of likes for a toy
+        How I debugged:
+        -added the render json option to the update action.
+
+    Donate a toy to Goodwill (and delete it from our database)
+        How I debugged:
+        -added a destroy route to the routes.rb file.
+
+
+
 ## Learning Goals
 
 - Understand how to communicate between client and server using fetch, and how
